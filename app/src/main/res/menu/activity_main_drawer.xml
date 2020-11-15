@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_cuenta"
+            android:icon="@drawable/ic_cuenta"
+            android:title="Mi Cuenta" />
+        <item
+            android:id="@+id/nav_intercambiar"
+            android:icon="@drawable/ic_intercambio"
+            android:title="Intercambiar" />
+        <item
+            android:id="@+id/nav_donar"
+            android:icon="@drawable/ic_donar"
+            android:title="Donar" />
+        <item
+            android:id="@+id/nav_notificaciones"
+            android:icon="@drawable/ic_notificaciones"
+            android:title="Notificaciones" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_acerca"
+            android:title="Acerca de" />
+
+        <item
+            android:id="@+id/nav_ayuda"
+            android:icon="@drawable/ic_help"
+            android:title="Ayuda" />
+
+    </group>
+</menu>

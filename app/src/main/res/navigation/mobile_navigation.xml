@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.tradenwear.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_cuenta"
+        android:name="com.example.tradenwear.fragment_cuenta"
+        android:label="Mi Cuenta"
+        tools:layout="@layout/fragment_cuenta" />
+
+    <fragment
+        android:id="@+id/nav_intercambiar"
+        android:name="com.example.tradenwear.fragment_intercambiar"
+        android:label="Intercambiar"
+        tools:layout="@layout/fragment_intercambiar" />
+
+
+    <fragment
+        android:id="@+id/nav_donar"
+        android:name="com.example.tradenwear.fragment_donar"
+        android:label="Donar"
+        tools:layout="@layout/fragment_donar" />
+
+    <fragment
+        android:id="@+id/nav_notificaciones"
+        android:name="com.example.tradenwear.Notificaciones"
+        android:label="Notificaciones"
+        tools:layout="@layout/fragment_notificaciones" />
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.tradenwear.nav_about"
+        android:label="Acerca de"
+        tools:layout="@layout/fragment_nav_about" />
+
+
+</navigation>
