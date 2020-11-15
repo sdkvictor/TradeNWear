@@ -1,1 +1,2 @@
 # TradeNWear
+Trade N Wear es una aplicación que busca promover el intercambio de ropa. Nuestra misión es fomentar la importancia del intercambio y reutilización de vestimentas de acuerdo a los Objetivos de Desarrollo Sostenible (ODS) para garantizar la producción sustentable y consumo responsable, evitando la sobreproducción de prendas que generan grandes cantidades de basura al ofrecer ropa en buenas condiciones a personas que la necesiten.
